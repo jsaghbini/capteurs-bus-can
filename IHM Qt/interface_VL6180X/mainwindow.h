@@ -39,16 +39,24 @@ public:
     void openCANPort();
     void sendCANMessage();
     void receiveCANMessage();
+    void receiveOpenGL();
+    void sendCANMotorMessage();
 
 
 public slots:
     void onTimer_Tick();
     void onButSendClicked();
+    void onTimer_OpenGL();
+
+    void onMotorButtonClicked();
+    void motorSpeedChanged(int value);
+    void motorAnemChanged(int value);
 
 private:
     scpp::SocketCan socket_can;
     Ui::MainWindow *ui;
     QTimer *timer_tick;
+    QTimer *timer_OpenGL;
 
     ObjectOpenGL *Object_GL; // instanciation de notre objet 3D
     void sendOrder(int id, qint8 order); // ordre de priorite
