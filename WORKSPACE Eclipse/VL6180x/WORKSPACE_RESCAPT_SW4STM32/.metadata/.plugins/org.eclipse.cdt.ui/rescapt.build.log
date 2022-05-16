@@ -1,0 +1,6 @@
+15:46:30 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+
+15:46:30 Build Finished (took 207ms)
+

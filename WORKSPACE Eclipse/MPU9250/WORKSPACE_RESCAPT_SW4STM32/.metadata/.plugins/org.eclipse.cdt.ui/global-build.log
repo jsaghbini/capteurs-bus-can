@@ -1,0 +1,507 @@
+15:39:42 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+15:40:03 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+16:06:52 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:155:4: error: 'frame_to_write' undeclared (first use in this function); did you mean 'pad_write'?
+    frame_to_write.id     =   0x4;
+    ^~~~~~~~~~~~~~
+    pad_write
+../src/main.c:155:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:157:10: error: 'ui' undeclared (first use in this function)
+       if(ui->lineEdit->text().toInt()>=0 && ui->lineEdit->text().toInt()<=200){
+          ^~
+../src/main.c:195:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+At top level:
+../src/main.c:191:6: warning: 'HAL_TIM_PeriodElapsedCallback' defined but not used [-Wunused-function]
+ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:169:6: warning: 'can_callback' defined but not used [-Wunused-function]
+ void can_callback(void)
+      ^~~~~~~~~~~~
+make: *** [src/subdir.mk:63: src/main.o] Error 1
+16:07:07 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+16:26:55 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+16:26:55 **** Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+16:26:57 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+17:16:24 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+17:16:25 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+17:16:28 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:32:52 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:32:53 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+arm-none-eabi-gcc -IInc/ -IDrivers/STM32F1xx_HAL_Driver/Inc/ -ISrc/vl6180x/ -IDrivers/BSP/STM32F1xx_Nucleo/ -IDrivers/CMSIS/Device/ST/STM32F1xx/Include/ -IDrivers/CMSIS/Include/ -DSTM32F103xBt -ggdb -O0 -fcommon -mlittle-endian --specs=rdimon.specs -mthumb -mcpu=cortex-m3 -mthumb-interwork -Wl,--gc-sections -lgcc -lc -lm -lrdimon -Wall -Wextra -Warray-bounds -Wno-unused-parameter -TDevice/gcc.ld Src/main.c Device/startup_stm32f103xb.s Src/vl6180x/vl6180x_api.c Src/vl6180x/vl6180x_lib.c Src/vl6180x/x-nucleo-6180xa1.c Src/stm32f1xx_hal_msp.c Src/stm32f1xx_it.c Src/system_stm32f1xx.c Src/systemClock.c Src/drv_can.c Src/drv_spi.c Src/drv_uart.c Src/drv_i2c.c Src/anemo.c Src/mpu9250.c Src/tickTimer.c Src/util.c Src/dynamixel.c stm32f1xx_hal.o stm32f1xx_hal_rcc.o stm32f1xx_hal_rcc_ex.o stm32f1xx_hal_rtc.o stm32f1xx_hal_gpio.o stm32f1xx_hal_cortex.o stm32f1xx_hal_pcd.o stm32f1xx_hal_pcd_ex.o stm32f1xx_hal_uart.o stm32f1xx_hal_usart.o stm32f1xx_hal_dma.o stm32f1xx_hal_adc.o stm32f1xx_hal_adc_ex.o stm32f1xx_hal_spi.o stm32f1xx_hal_i2c.o stm32f1xx_hal_tim.o stm32f1xx_hal_tim_ex.o stm32f1xx_hal_can.o Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.o -o template.elf
+Src/main.c: In function 'main':
+Src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+   70 |     uint8_t response=0;
+      |             ^~~~~~~~
+arm-none-eabi-objcopy -O ihex template.elf   template.hex
+arm-none-eabi-objcopy -O binary template.elf template.bin
+13:33:25 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:34:17 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:37:51 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:37:52 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+13:37:58 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:40:54 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:41:05 **** Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+13:41:05 **** Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+13:41:14 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+14:32:00 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+14:52:12 **** Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+14:52:12 **** Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+14:52:29 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:09:35 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:30: error: 'Utilisation' undeclared (first use in this function); did you mean 'magCalibration'?
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                              ^~~~~~~~~~~
+                              magCalibration
+../src/main.c:66:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:66:42: error: expected ')' before 'des'
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                                          ^~~
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+make: *** [src/subdir.mk:63: src/main.o] Error 1
+15:09:54 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:30: error: 'Utilisation' undeclared (first use in this function); did you mean 'magCalibration'?
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                              ^~~~~~~~~~~
+                              magCalibration
+../src/main.c:66:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:66:42: error: expected ')' before 'des'
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                                          ^~~
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+make: *** [src/subdir.mk:63: src/main.o] Error 1
+15:09:55 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+15:10:08 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:30: error: 'Utilisation' undeclared (first use in this function); did you mean 'magCalibration'?
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                              ^~~~~~~~~~~
+                              magCalibration
+../src/main.c:66:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:66:42: error: expected ')' before 'des'
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                                          ^~~
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+make: *** [src/subdir.mk:63: src/main.o] Error 1
+15:10:24 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:30: error: 'Utilisation' undeclared (first use in this function); did you mean 'magCalibration'?
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                              ^~~~~~~~~~~
+                              magCalibration
+../src/main.c:66:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:66:42: error: expected ')' before 'des'
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                                          ^~~
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+make: *** [src/subdir.mk:63: src/main.o] Error 1
+15:10:25 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+15:10:30 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:66:30: error: 'Utilisation' undeclared (first use in this function); did you mean 'magCalibration'?
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                              ^~~~~~~~~~~
+                              magCalibration
+../src/main.c:66:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:66:42: error: expected ')' before 'des'
+     mpu9250_CalibrateMPU9250(Utilisation des moteurs Robotis Dynamixel);
+                                          ^~~
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+make: *** [src/subdir.mk:63: src/main.o] Error 1
+15:10:42 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+15:11:19 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:12:08 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:12:08 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+15:12:14 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:23:22 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+15:31:18 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:31:18 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+15:31:20 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:31:35 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:31:54 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:31:55 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+15:32:01 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+15:32:01 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+16:38:24 **** Programming project rescapt on chip ****
+/local/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.23.0.201904120827/tools/openocd/bin/openocd -f stm32.flash.5972757111531997659.cfg -s /home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt -s /local/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_2.5.0.201904120827/resources/openocd/st_scripts -c "program Debug/rescapt.elf verify " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:33)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2.1 JTAG v25 API v2 M14 VID 0x0483 PID 0x374B
+Info : using stlink api v2
+Info : Target voltage: 3.256242
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F103RBTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08007a5c msp: 0x20005000
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+adapter speed: 4000 kHz
+** Programming Started **
+auto erase enabled
+Info : device id = 0x20036410
+Info : flash size = 128kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000
+wrote 33792 bytes from file Debug/rescapt.elf in 1.949556s (16.927 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20005000
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20005000
+verified 33284 bytes in 0.495175s (65.641 KiB/s)
+** Verified OK **
+shutdown command invoked
+16:39:13 **** Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+16:42:34 **** Programming project rescapt on chip ****
+/local/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.23.0.201904120827/tools/openocd/bin/openocd -f stm32.flash.6206495725894625696.cfg -s /home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt -s /local/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_2.5.0.201904120827/resources/openocd/st_scripts -c "program Debug/rescapt.elf verify " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:33)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2.1 JTAG v25 API v2 M14 VID 0x0483 PID 0x374B
+Info : using stlink api v2
+Info : Target voltage: 3.256242
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F103RBTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08007a5c msp: 0x20005000
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+adapter speed: 4000 kHz
+** Programming Started **
+auto erase enabled
+Info : device id = 0x20036410
+Info : flash size = 128kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000
+wrote 33792 bytes from file Debug/rescapt.elf in 1.998961s (16.509 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20005000
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20005000
+verified 33284 bytes in 0.494876s (65.681 KiB/s)
+** Verified OK **
+shutdown command invoked
+16:42:44 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:13: warning: variable 'response' set but not used [-Wunused-but-set-variable]
+     uint8_t response=0;
+             ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  32172	   1112	   2916	  36200	   8d68	rescapt.elf
+ 
+16:47:37 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».

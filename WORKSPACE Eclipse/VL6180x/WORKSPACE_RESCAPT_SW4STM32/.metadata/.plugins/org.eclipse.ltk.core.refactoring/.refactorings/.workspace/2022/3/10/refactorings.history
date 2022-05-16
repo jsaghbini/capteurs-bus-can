@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;rescapt/src/dec_to_hex.h&apos;" deleteContents="false" description="Delete resource &apos;rescapt/src/dec_to_hex.h&apos;" element1="/rescapt/src/dec_to_hex.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1647014352841"/>
+</session>

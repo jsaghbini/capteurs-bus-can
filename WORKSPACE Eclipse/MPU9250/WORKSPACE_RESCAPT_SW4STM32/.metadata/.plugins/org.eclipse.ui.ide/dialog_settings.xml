@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/WORKSPACE_RESCAPT_SW4STM32"/>
+		<item value="/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/PRJ Eduardo/WORKSPACE_RESCAPT_SW4STM32"/>
+		<item value="/home/e2021/j1saghbi/Bureau/RESEAU_CAPTEURS/PRJ Linked/WORKSPACE_RESCAPT/stm32-nucleo-f103rb_base"/>
+	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="629" key="DIALOG_X_ORIGIN"/>
+		<item value="319" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,32 @@
+17:28:35 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+17:28:39 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+17:29:19 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».
+14:46:17 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc/Legacy" -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/src/vl6180x" -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/inc" -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/device" -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/CMSIS/core" -I"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: rescapt.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/e2021/p1paulod/Bureau/RESEAU/WORKSPACE_RESCAPT_SW4STM32/rescapt/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "rescapt.elf" @"objects.list"   -lm
+Finished building target: rescapt.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "rescapt.elf" "rescapt.bin"
+arm-none-eabi-size "rescapt.elf"
+   text	   data	    bss	    dec	    hex	filename
+  33304	   1104	   2964	  37372	   91fc	rescapt.elf
+ 
+14:49:57 **** Incremental Build of configuration Debug for project rescapt ****
+make -j6 all 
+make: rien à faire pour « all ».

@@ -1,0 +1,6 @@
+15:32:01 **** Incremental Build of configuration Default for project stm32-nucleo-f401re-basic-template ****
+make all 
+make: rien à faire pour « all ».
+
+15:32:01 Build Finished (took 107ms)
+
