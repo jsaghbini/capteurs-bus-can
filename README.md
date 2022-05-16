@@ -13,9 +13,3 @@ Les capteurs ne pouvant émettre directement sur ce Bus, des microcontrôleurs S
 1. Installer l'[IDE Eclipse](https://www.eclipse.org/downloads/) pour gérer le code de la partie des cartes ST-Nucleo.
 2. Installer [Qt](https://www.qt.io/download), le logiciel cross-plateforme pour gérer la partie IHM.
 3. Récuperer les codes fournies dans ce repository et les ouvrir avec les IDE fournis dans les 2 premières étapes.
-
-## Participants
-1. Johnny SAGHBINI (moi) - https://www.linkedin.com/in/johnnysaghbini/
-2. Hassan SERHAN - https://www.linkedin.com/in/serhanhassan/
-3. Pedro NETO - https://www.linkedin.com/in/pedro-neto-45773714a/
-4. Eduardo MARCHIORI - https://www.linkedin.com/in/eduardo-marchiori-schiavolin/
